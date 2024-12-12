@@ -1,0 +1,71 @@
+[
+    {
+        "name": "video_id",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "description": "teste"
+
+    },
+    {
+        "name": "text",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "description": "teste"
+
+    },
+    {
+        "name": "category",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "description": "teste"
+
+    },
+    {
+        "name": "duration",
+        "mode": "NULLABLE",
+        "type": "FLOAT",
+        "description": "teste"
+
+    },
+    {
+        "name": "iab_categories",
+        "mode": "REPEATED",
+        "type": "RECORD",
+        "description": "teste",
+        "fields": [
+            {
+                "name": "id",
+                "mode": "NULLABLE",
+                "type": "INTEGER",
+                "description": "teste"
+
+            },
+            {
+                "name": "classifierId",
+                "mode": "NULLABLE",
+                "type": "STRING",
+                "description": "teste"
+
+            },
+            {
+                "name": "categoryId",
+                "mode": "NULLABLE",
+                "type": "STRING",
+                "description": "teste"
+
+            },
+            {
+                "name": "label",
+                "mode": "NULLABLE",
+                "type": "STRING",
+                "description": "teste"
+            },
+            {
+                "name": "score",
+                "mode": "NULLABLE",
+                "type": "FLOAT",
+                "description": "teste"
+            }
+        ]
+    }
+]
